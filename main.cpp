@@ -10,21 +10,7 @@
 #include <stdio.h>
 
 //***************************
-//構造体の定義
-//***************************
-namespace
-{
-typedef struct
-{/* プレイヤー */
-	int nHp;		//HP
-	int nAttack;	//攻撃力
-	int nDiffence;	//防御力
-	int nSpeed;		//すばやさ
-}Player;
-}//namespaceはここまで
-
-//***************************
-//構造体の定義
+//プロトタイプ宣言
 //***************************
 namespace
 {
